@@ -1,0 +1,21 @@
+{
+  "name": "WebSockets-Presentation-Demo",
+  "version": "0.0.1",
+  "description": "A simple demonstration demo using socket.io and express to create awebsocket server",
+  "main": "index.js",
+  "repository": "https://github.com/rebeccazhangnz/WebSockets.git",
+  "author": "rebecca-zhang <rebeccazhangnz@outlook.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  },
+  "scripts": {
+    "dev": "nodemon index",
+    "start": "node index",
+    "kill": "taskkill /f /im node.exe"
+  }
+}
