@@ -1,6 +1,5 @@
-//Set up client connection, when client makes a connect to the server, sets up an websocket connection
+//set client side socket
 const clientSocket = io.connect('http://localhost:3000')
-
 
 //Getting Elements from DOM
 
@@ -12,7 +11,7 @@ const inputMonitor = document.getElementById('changeMonitor')
 const clearBtn = document.getElementById('clearBtn')
 
 
-//Emit events to server
+//Event listener and emit data to server
 
 sendBtn.addEventListener('click', ()=>{
     clientSocket.emit('chat', {
