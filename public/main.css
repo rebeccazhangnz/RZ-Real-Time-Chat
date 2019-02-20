@@ -12,6 +12,27 @@ h2{
     color: #575ed8;
 }
 
+p{
+    color:white;
+}
+
+span{
+    color: rgb(226, 225, 225);
+}
+
+#username{
+max-width: 200px;
+margin: 30px 20vw 30px 5vw;
+background-color: rgba(0, 0, 0, 0.5);
+border-radius: 8px;
+color: white;
+}
+
+#changeMonitor{
+    margin:3px 0px 18px 6px;
+    color:gray;
+}
+
 #travelpod-chat{
     background-image: url('/chat-bg.jpg');
     background-size: 100vw 100vh;
@@ -33,20 +54,13 @@ h2{
 }
 
 #output p{
-    padding: 14px 0px;
-    margin: 0 20px;
-    border-bottom: 1px solid #e9e9e9;
+    padding: 4px 0px;
+    margin: 0 10px;
     color: #555;
 }
 
-#feedback p{
-    color: #aaa;
-    padding: 14px 0px;
-    margin: 0 20px;
-}
-
 #output strong{
-    color: #575ed8;
+    color:orange;
 }
 
 label{
